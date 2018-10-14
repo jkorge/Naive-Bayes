@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/classifier.h
+iostream
+-
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+map
+-
+algorithm
+-
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/2_Search/naive_bayes/src/classifier.cpp
+iostream
+-
+sstream
+-
+fstream
+-
+math.h
+-
+vector
+-
+map
+-
+algorithm
+-
+classifier.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/2_Search/naive_bayes/src/classifier.h
+
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/2_Search/naive_bayes/src/main.cpp
+classifier.h
+/mnt/c/Users/James/Desktop/carnd/Term 3 - Path Planning & Concentrations/Lectures/2_Search/naive_bayes/src/classifier.h
+iostream
+-
+fstream
+-
+math.h
+-
+vector
+-
+map
+-
+algorithm
+-
+
